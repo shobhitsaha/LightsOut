@@ -37,8 +37,8 @@ class Board extends Component {
 
     changeAround(coord) {
 
-        let y = parseInt(coord.split("-")[0]);
-        let x = parseInt(coord.split("-")[1]);
+        let y = parseInt(coord.split("-")[0],10);
+        let x = parseInt(coord.split("-")[1],10);
 
         let newNums = this.state.nums;
 
