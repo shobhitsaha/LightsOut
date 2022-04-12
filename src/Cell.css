@@ -1,0 +1,22 @@
+td {
+  height: 16vw;
+  width: 16vw;
+}
+@media only screen and (orientation: landscape) {
+  td {
+    height: 10vw;
+    width: 10vw;
+  }
+}
+@media only screen and (min-width:760px) {
+  td {
+    height: 8vw;
+    width: 8vw;
+  }
+}
+.lit {
+  background-color: teal;
+}
+.off {
+  background-color: rgb(66, 66, 66);
+}
